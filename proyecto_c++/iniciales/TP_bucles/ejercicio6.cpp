@@ -1,30 +1,34 @@
-// Escribir un programa que pregunte al usuario una cantidad a invertir,
-// el interés anual y el número de años, y muestre por pantalla el
-// capital obtenido en la inversión cada año que dura la inversión
-
 #include <iostream>
+#include <iomanip>
 
 using std::cout;
 using std::endl;
 using std::cin;
 
 int main(){
-    
-    double cantidad, intereses, porcen;
+
+    double cantidad, interes;
     int anios;
 
-    cout << "Ingrese la cantidad a invertir: ";
+    cout << "=== CALCULADORA DE INVERSION ===" << endl;
+
+    cout << "Cantidad a invertir: ";
     cin >> cantidad;
-    cout << "Ingrese el interes anual: ";
-    cin >> intereses;
-    cout << "Ingrese el numero de años: ";
+
+    cout << "Interes anual (%): ";
+    cin >> interes;
+
+    cout << "Numero de años: ";
     cin >> anios;
 
-    porcen = (intereses / 100) + 1;
+    double factor = 1 + interes / 100;
 
-    for(int i = 0; i <= anios - 1; i += 1){
-        cantidad *= porcen;
-        cout << "El " << i + 1 << "° año se recaudó " << cantidad << endl;
+    cout << std::fixed << std::setprecision(2) << endl;
+
+    for(int i = 1; i <= anios; i++){
+        cantidad *= factor;
+        cout << "Año " << i << ": $" << cantidad << endl;
     }
+
     return 0;
 }

@@ -1,4 +1,4 @@
-package encapsulamiento.circulo;
+package encapsulamiento.circulos;
 
 import java.util.Scanner;
 

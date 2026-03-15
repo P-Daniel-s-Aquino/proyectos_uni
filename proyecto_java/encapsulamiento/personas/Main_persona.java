@@ -1,4 +1,4 @@
-package encapsulamiento.persona;
+package encapsulamiento.personas;
 
 public class Main_persona {
     

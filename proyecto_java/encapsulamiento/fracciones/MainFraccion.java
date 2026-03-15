@@ -1,4 +1,4 @@
-package encapsulamiento.fraccion;
+package encapsulamiento.fracciones;
 
 public class MainFraccion {
     public static void main(String[] args) {

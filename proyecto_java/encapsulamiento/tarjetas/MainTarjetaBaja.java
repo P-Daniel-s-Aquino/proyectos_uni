@@ -1,4 +1,4 @@
-package encapsulamiento.tarjeta;
+package encapsulamiento.tarjetas;
 
 public class MainTarjetaBaja {
     

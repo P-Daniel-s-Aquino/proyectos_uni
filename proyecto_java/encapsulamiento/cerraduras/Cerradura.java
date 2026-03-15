@@ -19,7 +19,7 @@
 // 
 // }
 
-package encapsulamiento.cerradura;
+package encapsulamiento.cerraduras;
 
 public class Cerradura {
     

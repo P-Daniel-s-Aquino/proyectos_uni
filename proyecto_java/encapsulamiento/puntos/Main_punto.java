@@ -1,4 +1,4 @@
-package encapsulamiento.punto;
+package encapsulamiento.puntos;
 
 public class Main_punto {
     

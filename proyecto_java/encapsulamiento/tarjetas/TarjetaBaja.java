@@ -44,7 +44,7 @@
 //     public int contarViajesEnSubte() { }
 // }
 
-package encapsulamiento.tarjeta;
+package encapsulamiento.tarjetas;
 
 public class TarjetaBaja {
 

@@ -1,4 +1,4 @@
-package encapsulamiento.alumno;
+package encapsulamiento.alumnos;
 
 // Estudiante
 // Realizar un programa que conste de una clase llamada Estudiante, 

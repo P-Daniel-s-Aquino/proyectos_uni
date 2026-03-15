@@ -9,7 +9,7 @@
 // obtenerVolumen: devuelve el volumen que encierra el cubo
 // cambiarVolumen(double volumen): cambia el volumen del cubo
 
-package encapsulamiento.cubo;
+package encapsulamiento.cubos;
 
 import java.util.Scanner;
 

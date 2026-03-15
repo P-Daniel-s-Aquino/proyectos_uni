@@ -1,4 +1,4 @@
-package encapsulamiento.alumno;
+package encapsulamiento.alumnos;
 
 public class Main_alumno {
     

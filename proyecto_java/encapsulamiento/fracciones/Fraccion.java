@@ -1,4 +1,4 @@
-package encapsulamiento.fraccion;
+package encapsulamiento.fracciones;
 
 // Fracción
 // Definir una clase que represente a un número fraccionario. Una fracción está definida por un numerador 

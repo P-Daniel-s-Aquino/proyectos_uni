@@ -1,4 +1,4 @@
-package encapsulamiento.persona;
+package encapsulamiento.personas;
 
 // Persona
 // Crea una clase Persona. Con atributos nombre y edad. Además, crear un método 

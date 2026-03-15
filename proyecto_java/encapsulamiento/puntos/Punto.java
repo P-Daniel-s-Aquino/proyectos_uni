@@ -1,4 +1,4 @@
-package encapsulamiento.punto;
+package encapsulamiento.puntos;
 
 // Punto
 // Crear la clase Punto que tendrá dos atributos numéricos, x e y, que 

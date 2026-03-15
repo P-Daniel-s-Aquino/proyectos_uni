@@ -1,4 +1,4 @@
-package encapsulamiento.cubo;
+package encapsulamiento.cubos;
 
 import java.util.Scanner;
 

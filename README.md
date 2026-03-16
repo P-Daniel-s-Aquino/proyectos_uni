@@ -29,10 +29,10 @@ Algunos de los proyectos clave que encontrarás aquí son:
 
 1.  **Catálogo Musical (Java):** Una aplicación de consola que gestiona una colección de canciones, implementada con clases abstractas, herencia y polimorfismo para modelar distintos tipos de canciones.
 2.  **Simulador de Cerradura (Java):** Un ejercicio clásico de encapsulamiento que simula el comportamiento de una cerradura de seguridad con intentos limitados.
-3.  **[Añade aquí otro proyecto que te guste]**
+3.  
 
 ## 🛠️ Sobre Mí
 
-Soy **[Tu Nombre]**, un estudiante de programación apasionado por resolver problemas a través del código. Este repositorio es un reflejo de mi viaje y evolución.
+Soy **Daniel**, un estudiante de programación apasionado por resolver problemas a través del código. Este repositorio es un reflejo de mi viaje y evolución.
 
 ¡Gracias por visitar!

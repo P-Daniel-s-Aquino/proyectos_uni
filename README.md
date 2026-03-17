@@ -27,8 +27,10 @@ El repositorio está organizado en carpetas, una por cada lenguaje o tecnología
 
 Algunos de los proyectos clave que encontrarás aquí son:
 
-1.  **[Catálogo Musical (Java):](https://github.com/P-Daniel-s-Aquino/proyectos_uni/tree/main/java_project/herencia/fabricas)** Una aplicación de consola que gestiona una colección de canciones, implementada con clases abstractas, herencia y polimorfismo para modelar distintos tipos de canciones.
+1. **[Catálogo Musical (Java):](https://github.com/P-Daniel-s-Aquino/proyectos_uni/tree/main/java_project/herencia/fabricas)** Una aplicación de consola que gestiona una colección de canciones, implementada con clases abstractas, herencia y polimorfismo para modelar distintos tipos de canciones.
 2. **[Simulador de Cerradura (Java):](https://github.com/P-Daniel-s-Aquino/proyectos_uni/tree/main/java_project/encapsulamiento/cerraduras)** Un ejercicio clásico de encapsulamiento que simula el comportamiento de una cerradura de seguridad con intentos limitados.
+3. **[Fábrica automotriz] (Java)(https://github.com/P-Daniel-s-Aquino/proyectos_uni/tree/main/java_project/herencia/fabricas)** Un ejercicio práctico de herencia donde las clases Auto y Moto heredan atributos y comportamientos de una clase base Fabrica.
+
 
 ## 🛠️ Sobre Mí
 

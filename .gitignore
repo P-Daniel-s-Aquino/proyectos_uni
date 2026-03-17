@@ -217,6 +217,15 @@ replay_pid*
 # Prerequisites
 *.d
 
+# 1. Ignora todo en el directorio actual
+*
+
+# 2. PERO, no ignores los archivos que SÍ tienen extensión
+!*.*
+
+# 3. Y no ignores los directorios, para que git pueda seguir buscando dentro
+!*/
+
 # Compiled Object files
 *.slo
 *.lo

@@ -217,6 +217,10 @@ replay_pid*
 # Prerequisites
 *.d
 
+# Ignorar ejecutables sin extensión en todo cpp_project
+cpp_project/**/*
+!cpp_project/**/*.*
+
 # Compiled Object files
 *.slo
 *.lo

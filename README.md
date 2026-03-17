@@ -15,7 +15,7 @@ Este repositorio contiene proyectos en los siguientes lenguajes:
 
 El repositorio está organizado en carpetas, una por cada lenguaje o tecnología principal.
 
-*   `SQL/`: Contiene scripts `.sql` con definiciones de tablas, consultas y trabajos prácticos de bases de datos.
+*   `SQL_poject/`: Contiene scripts `.sql` con definiciones de tablas, consultas y trabajos prácticos de bases de datos.
 *   `java_projects/`: Proyectos en Java, organizados por concepto de POO.
     *   `encapsulamiento/`: Ejercicios que demuestran la ocultación de datos.
     *   `herencia/`: Ejemplos de jerarquías de clases y polimorfismo.
@@ -27,12 +27,11 @@ El repositorio está organizado en carpetas, una por cada lenguaje o tecnología
 
 Algunos de los proyectos clave que encontrarás aquí son:
 
-1.  **Catálogo Musical (Java):** Una aplicación de consola que gestiona una colección de canciones, implementada con clases abstractas, herencia y polimorfismo para modelar distintos tipos de canciones.
-2.  **Simulador de Cerradura (Java):** Un ejercicio clásico de encapsulamiento que simula el comportamiento de una cerradura de seguridad con intentos limitados.
-  
+1.  **[Catálogo Musical (Java):](https://github.com/P-Daniel-s-Aquino/proyectos_uni/tree/main/java_project/herencia/fabricas)** Una aplicación de consola que gestiona una colección de canciones, implementada con clases abstractas, herencia y polimorfismo para modelar distintos tipos de canciones.
+2. **[Simulador de Cerradura (Java):](https://github.com/P-Daniel-s-Aquino/proyectos_uni/tree/main/java_project/encapsulamiento/cerraduras)** Un ejercicio clásico de encapsulamiento que simula el comportamiento de una cerradura de seguridad con intentos limitados.
 
 ## 🛠️ Sobre Mí
 
-Soy **Daniel**, un estudiante de programación apasionado por resolver problemas a través del código. Este repositorio es un reflejo de mi viaje y evolución.
+Soy **Daniel**, un estudiante de licenciatura en informática apasionado por resolver problemas a través del código. Este repositorio es un reflejo de mi viaje y evolución.
 
 ¡Gracias por visitar!

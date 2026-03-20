@@ -22,6 +22,9 @@ public class Main_punto {
         System.out.println(p3.distanciaAlOrigen());
         System.out.println(p4.distanciaAlOrigen());
         System.out.println(p5.distanciaAlOrigen());
-        
+
+        // Cuando el metodo es static debe llamarse al metodo con el nombre de su clase.
+        System.out.println(Punto.distancia(p1, p4));
+        System.out.println(p1.distancia(p4));
     }
 }

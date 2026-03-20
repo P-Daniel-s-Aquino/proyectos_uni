@@ -15,12 +15,10 @@ public class Circulo {
     private double radio;
 
     public Circulo(double radio) {
-
         this.radio = radio;
     }
 
     public Circulo() {
-        
     }
 
     public void pedirRadio(Scanner teclado) {
@@ -37,17 +35,14 @@ public class Circulo {
     }
 
     public double diametro(){
-
         return radio * 2;
     }
 
     public double perimetro(){
-
         return radio * 2 * Math.PI;
     }
 
     public double area(){
-
         double rr = radio * radio;
         return rr * Math.PI;
     }

@@ -15,22 +15,19 @@
 
 	// SNIPPET 2: toString format
 	// Este snippet crea una plantilla para un método toString que usa String.format.
-	"toString format": {
-		"prefix": "tosf", // Se activa al escribir "tosf" y presionar Tab.
-		"body": [
-			"@Override",
-			"public String toString() {",
-			"\treturn String.format(\"%n==============OBJETO==============%n\" +",
-			// ${1: VALOR} es el primer "tab stop". Suele ser el nombre del atributo (ej. "Nombre").
-			// %${2: TIPO} es el segundo "tab stop", para el especificador de formato (s, d, f).
-			"\t\t\"${1: VALOR}: %${2: TIPO}%n\" +",
-			// ${3: VALOR} es el tercer "tab stop". Aquí se coloca el atributo real (ej. this.nombre).
-			// Nota: Si el nombre del atributo en ${1} y ${3} es el mismo, tendrás que escribirlo dos veces.
-			"\t\tthis.${3: VALOR}",
-			"}"
-		],
-		"description": "Crea un método toString con String.format y ejemplo."
-	},
+  "toString (concatenado con paréntesis)": {
+    "prefix": "tost",
+    "body": [
+      "@Override",
+      "public String toString() {",
+      "\treturn (",
+      "\t    \"\n=============== ${1:OBJETO} ===============\n\" +",
+      "\t    \"${2:campo1}: \" + this.${3:campo1} +",
+      "\t);",
+      "}"
+    ],
+    "description": "Genera un toString() con concatenación de strings y paréntesis en el return."
+  },
 
 	// SNIPPET 3: pedir atributo metodo
 	// Este snippet genera un método para pedir un dato al usuario y asignarlo a un atributo.

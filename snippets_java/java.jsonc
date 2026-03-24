@@ -21,7 +21,7 @@
       "@Override",
       "public String toString() {",
       "\treturn (",
-      "\t    \"\n=============== ${1:OBJETO} ===============\n\" +",
+      "\t    \"=============== ${1:OBJETO} ===============\" +",
       "\t    \"${2:campo1}: \" + this.${3:campo1} +",
       "\t);",
       "}"

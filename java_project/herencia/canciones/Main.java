@@ -2,7 +2,21 @@ package herencia.canciones;
 
 import java.util.Scanner;
 
-public class MainCancion {
+// Canciones
+// Construir una pequeña base de datos de canciones clásicas en CD. Para ello se debe definir una clase base Canción, 
+// de la cual descenderán todas las demás (clásica, pop, jazz, etc.). 
+// Nosotros solo implementaremos la clase Clásica. La clase abstracta Canción tendrá cuatro atributos:
+// número de referencia: identifica el CD de música, único para cada CD
+// titulo: nombre de la canción
+// álbum: nombre del disco
+// grupo: nombre del grupo que toca la canción
+// método abstract imprimirCancion() La clase Clásica hereda de Canción. Esta clase tendrá solo una variable adicional: 
+// instrumentos(String), que pondrá el tipo de instrumentos que se usan. Funcionalidades permitidas:
+// crear(): permite agregar una nueva canción
+// eliminar(): borrar una canción, dado su número de referencia
+// listado(): mostrar todas las canciones de la base de datos
+
+public class Main {
     public static void main(String[] args) {
         
         // 1. Creamos una instancia del gestor del catálogo.

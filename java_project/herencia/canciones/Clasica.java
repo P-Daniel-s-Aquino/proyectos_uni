@@ -1,7 +1,7 @@
 package herencia.canciones;
 
 public class Clasica extends Cancion {
-    
+
     private String instrumentos;
 
     public Clasica(int referencia, String titulo, String album, String grupo, String instrumentos) {

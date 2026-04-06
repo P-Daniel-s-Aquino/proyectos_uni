@@ -61,7 +61,6 @@ public class ListaCanciones {
         System.out.println("\n--- LISTADO DE CANCIONES ---");
         if (catalogo.isEmpty()) {
             System.out.println("La base de datos está vacía.");
-            return;
         }
         
         for (Cancion cancion : catalogo) {

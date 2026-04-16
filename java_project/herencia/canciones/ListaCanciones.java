@@ -21,14 +21,14 @@ public class ListaCanciones {
     public void crear(Scanner teclado) {
         System.out.println("\nCreando nueva canción clásica...");
         
-        int ref;
+        int referencia;
         // Bucle para asegurar que la referencia sea única.
         while (true) {
             System.out.print("Referencia: ");
-            ref = teclado.nextInt();
+            referencia = teclado.nextInt();
             teclado.nextLine(); // Limpiar el buffer
 
-            if (existeReferencia(ref)) {
+            if (existeReferencia(referencia)) {
                 System.out.println("Error: ¡Esa referencia ya está en uso! Intente con otra.");
             } else {
                 break; // La referencia es válida, salimos del bucle.
@@ -49,7 +49,7 @@ public class ListaCanciones {
         String instrumentos = teclado.nextLine();
         
         // Creamos la instancia de la canción específica.
-        Clasica nuevaCancion = new Clasica(ref, titulo, album, grupo, instrumentos);
+        Clasica nuevaCancion = new Clasica(referencia, titulo, album, grupo, instrumentos);
         
         // Y la añadimos al catálogo.
         catalogo.add(nuevaCancion);
